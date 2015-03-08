@@ -1,7 +1,7 @@
 
-# react-examples
+# react-by-example
 
-> React.js by examples
+> Learning React.js by examples
 
 ## Development
 
@@ -11,4 +11,4 @@
 
 ## License
 
-react-examples is [ISC licensed](LICENSE).
+react-by-example is [ISC licensed](LICENSE).
