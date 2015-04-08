@@ -1,0 +1,27 @@
+{
+  "name": "hello-world",
+  "author": "Urban Faubion <urban.faubion@gmail.com>",
+  "dependencies": {
+    "react": "^0.13.1"
+  },
+  "devDependencies": {
+    "babelify": "^6.0.2",
+    "browserify": "^9.0.7",
+    "browserify-shim": "^3.8.3"
+  },
+  "scripts": {
+    "build": "npm run build:js",
+    "build:js": "browserify -e index.jsx -o bundle.js -d",
+    "prestart": "npm run build:js",
+    "start": "open index.html"
+  },
+  "browserify": {
+    "transform": [
+      "babelify",
+      "browserify-shim"
+    ]
+  },
+  "browserify-shim": {
+    "react": "global:React"
+  }
+}

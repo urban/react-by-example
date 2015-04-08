@@ -1,13 +1,8 @@
 {
   "name": "react-by-example",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "React.js by example",
-  "main": "server.js",
   "private": true,
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "babel-node server.js"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/urban/react-by-example.git"
@@ -23,26 +18,5 @@
   "bugs": {
     "url": "https://github.com/urban/react-by-example/issues"
   },
-  "homepage": "https://github.com/urban/react-by-example",
-  "dependencies": {
-    "babel": "^4.7.3",
-    "babel-core": "^4.7.3",
-    "babel-loader": "^4.1.0",
-    "babel-runtime": "^4.7.3",
-    "css-layout": "0.0.2",
-    "react": "^0.13.0-rc2",
-    "react-hot-loader": "^1.1.7",
-    "webpack": "^1.7.2",
-    "webpack-dev-server": "^1.7.0"
-  },
-  "reactByExampleOptions": {
-    "contentBase": "./examples",
-    "outputDir": "_build",
-    "commonChunkName": "common",
-    "entries": {
-      "core": "./examples/1-core/index.jsx",
-      "core-jsx": "./examples/1.1-core-jsx/index.jsx",
-      "layout": "./examples/002-layout/index.jsx"
-    }
-  }
+  "homepage": "https://github.com/urban/react-by-example"
 }

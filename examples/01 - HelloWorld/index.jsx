@@ -34,6 +34,6 @@ let HelloMessageFactory = React.createFactory(HelloMessage);
 // Use `React.render` to render a component into the DOM.
 //
 React.render(
-  <HelloMessage name="Urban" />,
+  <HelloMessage name="World" />,
   document.querySelector('#react-mount-point')
 );
