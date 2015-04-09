@@ -10,10 +10,9 @@
     "browserify-shim": "^3.8.3"
   },
   "scripts": {
-    "build": "npm run build:js",
-    "build:js": "browserify -e index.jsx -o bundle.js -d",
-    "prestart": "npm run build:js",
-    "start": "open index.html"
+    "build": "browserify src/HelloWorld.jsx -o build/bundle.js -d",
+    "prestart": "npm run watch",
+    "start": "open build/index.html"
   },
   "browserify": {
     "transform": [
