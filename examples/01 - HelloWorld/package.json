@@ -4,23 +4,8 @@
   "dependencies": {
     "react": "^0.13.1"
   },
-  "devDependencies": {
-    "babelify": "^6.0.2",
-    "browserify": "^9.0.7",
-    "browserify-shim": "^3.8.3"
-  },
+  "devDependencies": {},
   "scripts": {
-    "build": "browserify src/HelloWorld.jsx -o build/bundle.js -d",
-    "prestart": "npm run watch",
-    "start": "open build/index.html"
-  },
-  "browserify": {
-    "transform": [
-      "babelify",
-      "browserify-shim"
-    ]
-  },
-  "browserify-shim": {
-    "react": "global:React"
+    "start": "open index.html"
   }
 }
