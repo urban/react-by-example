@@ -1,5 +1,5 @@
 {
-  "name": "hello-world",
+  "name": "react-by-example-jsx",
   "author": "Urban Faubion <urban.faubion@gmail.com>",
   "dependencies": {
     "react": "^0.13.2"
